@@ -3,7 +3,8 @@ self.__uv$config = {
     bare: [
         "https://test.com",
         "https://bare.starttiw.org",
-        "https://geoquiz.gq/bare/"
+        "https://geoquiz.gq/bare/",
+        "https://test2.com"
     ],
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
@@ -12,3 +13,4 @@ self.__uv$config = {
     config: '/uv/uv.config.js',
     sw: '/uv/uv.sw.js',
 };
+console.log(
