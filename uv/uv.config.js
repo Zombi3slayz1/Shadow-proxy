@@ -1,6 +1,10 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: 'https://geoquiz.gq/bare/',
+    bare: [
+        "https://test.com",
+        "https://bare.starttiw.org",
+        "https://geoquiz.gq/bare/"
+    ],
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
