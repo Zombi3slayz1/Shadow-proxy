@@ -13,6 +13,9 @@
 <script>
   var searchbar=document.getElementById("searchbar");
   var searchform=document.getElementById("searchform");
+
+  var fontsize=2560/screen.width*7.5;
+  document.getElementById("title").style.fontSize=fontsize+"px";
   
   searchform.addEventListener("submit", async (event) => {
     event.preventDefault();
