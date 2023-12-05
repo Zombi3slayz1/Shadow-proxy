@@ -1,2 +1,2 @@
 # Shadow-proxy
-Fastest proxy that has hundreds of users
+Fast proxy with blazing speed that has hundreds of users
