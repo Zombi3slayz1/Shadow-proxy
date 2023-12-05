@@ -5,7 +5,7 @@
 <script src="/error.js" defer></script>
 
 <form class="searchform" id="searchform">
-  <input id="searchbar" placeholder="Search freely">
+  <input id="searchbar" placeholder="Search the web freely">
 </form>
 <script>
   var searchbar=document.getElementById("searchbar");
@@ -23,3 +23,14 @@
     window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
   });
 </script>
+<style>
+  #searchbar{
+    width:70%;
+    position:absolute;
+    top:50%;
+    left:15%;
+    border-radius:25px;
+    background:transparent;
+    border:3px solid white;
+  }
+</style>
